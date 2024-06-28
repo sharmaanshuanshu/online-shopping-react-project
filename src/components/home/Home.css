@@ -1,0 +1,90 @@
+
+.top-center-image-box{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 10px;  
+    row-gap: 10px;  
+}
+
+.boxInner{
+    padding: 100px;
+}
+
+.box-1{
+    grid-column: span 2;
+    grid-row: span 2;   
+    background-color: blanchedalmond;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmjS8ywMSOb3KUk39Ta5Ro3xb9yM6P8TLbdw&s');
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-size: 400px 702px;
+}
+
+.link-btn-border a{
+    border-bottom: 2px solid red; 
+}
+
+.box-2{
+    background-color: #7fffd48a;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTF3siyjaIvnk1Om-mAKAsrHNMms4gMUBUSTw&s');
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-size: 300px 402px;   
+}
+
+.box-3{
+    background-color: #8a2be22e;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTF3siyjaIvnk1Om-mAKAsrHNMms4gMUBUSTw&s');
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-size: 300px 402px;
+}
+
+.box-4{
+    background-color: #e9967a38;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTF3siyjaIvnk1Om-mAKAsrHNMms4gMUBUSTw&s');
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-size: 300px 402px;
+}
+
+.box-5{
+    background-color: #87ceeb5e;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTF3siyjaIvnk1Om-mAKAsrHNMms4gMUBUSTw&s');
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-size: 300px 402px;
+}
+
+.box-1-center-text{
+    word-wrap: break-word;
+}
+
+.footer{
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    background-color:black;
+    color: white;
+    align-items: center;    
+}
+.width400{
+    width: 400px;
+}
+
+.footer-left-logo{
+    display: flex;
+    align-items: center;
+}
+
+.footer-left-logo i{
+    margin-right: 10px;
+}
+
+
+.footer-right-logo i{
+    margin-top: 10px;
+    margin-right: 20px;
+    size: 30px;
+    font-size: 30px;
+}
